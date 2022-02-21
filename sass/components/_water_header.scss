@@ -1,0 +1,20 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the hero images/videos at the
+// top of each project page.
+// -----------------------------------------------------------------------------
+
+#water-header {
+	position: relative;
+	// width: 100%;
+	height: calc(100vh + 20px);
+	overflow: hidden;
+	z-index: 2;
+	top: -10px;
+}
+
+#water-header > video {
+    height: 100%;
+    width: 177.77777778vh; /* 100 * 16 / 9 */
+    min-width: 100%;
+    min-height: 56.25vw; /* 100 * 9 / 16 */
+}

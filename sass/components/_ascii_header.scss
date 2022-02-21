@@ -1,0 +1,13 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the ASCII component
+// displayed in the header .
+// -----------------------------------------------------------------------------
+
+.ascii-header {
+  margin: 0;
+  /* white-space: pre; */
+}
+
+.ascii-header > a, pre {
+    text-decoration: none;
+  }
