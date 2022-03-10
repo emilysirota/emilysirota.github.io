@@ -481,7 +481,6 @@ body.work-bg {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
 }
 
 /*********************************************/
@@ -551,10 +550,6 @@ ul {
     padding-left: calc(5em + 5vw);
     padding-top: 0;
   }
-}
-
-.grid-flex-container {
-  height: 100%;
 }
 
 .grid-full-height {
@@ -700,6 +695,7 @@ article {
 
 .img_fullheight {
   max-width: 80vw;
+  min-width: 80vw;
 }
 
 .menu-btn {
@@ -739,6 +735,10 @@ article {
 
 .menu-empty {
   display: none;
+}
+
+.myBody {
+  padding-bottom: 20vh;
 }
 
 /* menu - navbar */
