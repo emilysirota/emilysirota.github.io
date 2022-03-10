@@ -478,7 +478,6 @@ body.work-bg {
 }
 
 .grid-centred {
-  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -697,6 +696,10 @@ article {
   top: 0;
   right: 20px;
   width: 100%;
+}
+
+.img_fullheight {
+  max-width: 80vw;
 }
 
 .menu-btn {
